@@ -27,3 +27,15 @@ var gender="Gender : Male";
 console.log(gender);
 var isMarried="Married ? : Yes";
 console.log(isMarried);
+
+console.log("******Step3 Declaration and Initialization in same line**************************");
+
+var firstName="My First Name is : Tushar,";
+var lastName="My Last Name is : Borade,";
+var age="Age : 31,";
+var address="Address : A/P Shrigonda,";
+var pinCode="Pincode : 413701,";
+var gender="Gender : Male,";
+var isMarried="Married ? : Yes.";
+console.log(firstName,lastName,age,address,pinCode,gender,isMarried);
+
