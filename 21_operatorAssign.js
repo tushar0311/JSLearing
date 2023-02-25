@@ -6,3 +6,4 @@ function tcseligibility(gradScore,hscScore,sscScore,candidateName){
 tcseligibility(80,86,90,"Tushar");
 tcseligibility(70,65,55,"Sagar");
 tcseligibility(60,79,88,"Pravin");
+

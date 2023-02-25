@@ -11,3 +11,15 @@ function string (value1){
 string (java);
 string (google);
 string (developer);
+
+function squareOfWordLength(value){
+console.log(`Given String is ${value}`);
+var result =value.length;
+console.log(`Given String ${value} Length is:${result}`);
+var squre = result*result;
+console.log(`Given string ${value} Square is: ${squre}` );
+return squre
+}
+squareOfWordLength("JavaScript")
+squareOfWordLength("google chrome")
+squareOfWordLength("developer smart")

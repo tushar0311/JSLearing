@@ -37,5 +37,5 @@ var string="I am Angular Developer"
 var str=string.split(" ")
 console.log("(2.2) String Length:",string.length);
 console.log("(2.3) Total No of words:",str.length);
-console.log("(2.4) String Length Diveded by words:",(22/4));
-console.log("(2.5) String Length Multiply by words:",(22*4));
+console.log(`(2.4) String Length Diveded by words:${string.length/str.length}`);
+console.log(`(2.5) String Length Multiply by words:${string.length*str.length}`);

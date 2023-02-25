@@ -9,7 +9,7 @@ greaterNumber(800,899)
 
 console.log("(2) Even or Odd Number");
 function isEvenOrOddNum(num){
-    var result =num%2==0 ? "True" : "False";
+    var result =num%2==0 ? true : false;
     return result
 }
 var result = isEvenOrOddNum(29);
