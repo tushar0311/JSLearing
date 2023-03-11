@@ -68,27 +68,19 @@ traverseObject(new college("Parikrama E & T","Shrigonda","DME & Engineering","A"
 console.log("*****************************************************(4) Prime Number************************************************");
 function test_prime(n)
 {
-
-  if (n===1)
-  {
-    return false;
+var i;
+var n;
+for (let index = 2; index < n; index++){
+  if(n%i===0){
+    return `Not Prime Number`;
+  }else{
+    return `Prime NUmber`
   }
-  else if(n === 2)
-  {
-    return `prime number`;
-  }else
-  {
-    for(var x = 2; x < n; x++)
-    {
-      if(n % x === 0)
-      {
-        return false;
-      }
-    }
-    return `Prime Number`;  
-  }
+    
 }
-
+ 
+}
+let result=test_prime(11)
 console.log(`The Given 11 number is ${test_prime(11)}`);
 
 
