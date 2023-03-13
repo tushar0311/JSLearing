@@ -57,31 +57,40 @@ function traverseObject(obj){
      }   
  }      
 }
-traverseObject(new college("COEP","Pune","Engineering","A++"));
+traverseObject(coep);
 console.log("**************************************************************************************************************************");
-traverseObject(new college("GPN","Nashik","Diploma","A+"));
+traverseObject(gpn);
 console.log("**************************************************************************************************************************");
-traverseObject(new college("DSQIE&T","Sambhajinagar","Engineering and Medicle","A"));
+traverseObject(dsqiet);
 console.log("**************************************************************************************************************************");
-traverseObject(new college("Parikrama E & T","Shrigonda","DME & Engineering","A"));
+traverseObject(Parikrama);
 
 console.log("*****************************************************(4) Prime Number************************************************");
-function test_prime(n)
-{
-var i;
-var n;
-for (let index = 2; index < n; index++){
-  if(n%i===0){
-    return `Not Prime Number`;
-  }else{
-    return `Prime NUmber`
-  }
+function testPrime(n){
     
-}
+     if (n===1)
+      {
+        return `Not Prime Number`;
+      }
+      else if(n === 2)
+      {
+        return `prime number`;
+      }else
+      {
+        for(var x = 2; x < n; x++)
+        {
+          if(n % x === 0)
+          {
+            return `Not Prime NUmber`;
+          }
+        }
+        return `Prime Number`;  
+      }
+    }
+    let result=testPrime(11)
+    console.log(`The Given 11 number is ${result}`);
  
-}
-let result=test_prime(11)
-console.log(`The Given 11 number is ${test_prime(11)}`);
+
 
 
 
