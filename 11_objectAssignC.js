@@ -17,10 +17,14 @@ const bankLocation={
 console.log(bankLocation);
 
 console.log("****************(3.1) Clone bankSbi and bankLocation objetcs using Object.assign()****************");
-const newBankSbi=bankSbi;
-console.log(newBankSbi);
-const newBankLocation=bankLocation;
-console.log(newBankLocation);
+Object.assign(bankSbi)
+console.log(bankSbi);
+Object.assign(bankLocation);
+console.log(bankLocation);
+// const newBankSbi=bankSbi;
+// console.log(newBankSbi);
+// const newBankLocation=bankLocation;
+// console.log(newBankLocation);
 
 console.log("****************(3.2) Clone bankSbi and bankLocation objetcs using Spread Operator ****************");
 const newBankSbiSpread={...bankSbi};
