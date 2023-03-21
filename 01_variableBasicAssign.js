@@ -2,6 +2,7 @@ var myWifeName="Komal";
 var myMotherName="Ranjana";
 var myBoyName="Ridhaan";
 
+
 var age = 31
 var height = 165
 var weight=77
