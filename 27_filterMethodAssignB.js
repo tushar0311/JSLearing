@@ -18,12 +18,12 @@ const empMahi=new Employee(88,"Mahesh","HR",85000,"Infy");
 
 console.log("******(1) Find all employees from TCS*******");
 const array=[empAnil,empRadha,empRishi,empSonali,empMonika,empVinay,empMahi];
-const array1=array.filter((element)=>{
-     if(element.empCompany=="TCS"){ 
-          
-        console.log(`Employee Name: ${element.empName}, Employee Company: ${element.empCompany}`);      
-} 
+const array1=array.filter((Employee)=>{
+    return  Employee.empCompany === "TCS"   
+}).map((Employee)=>{
+    return `EMployee Name: ${Employee.empName}, Employee Comapny: ${Employee.empCompany}`
 })
+console.log(array1);
 
 console.log("******(2) Find average salary of employees from Wipro*******");
 let sum=0

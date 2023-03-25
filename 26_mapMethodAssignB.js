@@ -38,17 +38,9 @@ const ArrayOfEmpNamess=array.map((Employee)=>{
 console.log(ArrayOfEmpNamess);
 
 console.log("******(4) List of Employee working in TCS*******");
-const ArrayOfEmpNamesss=array.map((Employee)=>{
-    if(Employee.empCompany === "TCS") { 
-       return Employee.empName  
-    }
+const ArrayOfEmpNamesss=array.filter((Employee)=>{
+    return  Employee.empCompany === "TCS"   
+}).map((Employee)=>{
+    return Employee.empName
 })
-console.log( ArrayOfEmpNamesss);  
-
-
-
-
-
-
-
-
+console.log( ArrayOfEmpNamesss); 
